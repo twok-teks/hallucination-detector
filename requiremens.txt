@@ -1,0 +1,5 @@
+pip install transformers torch scikit-learn numpy
+pip freeze > requirements.txt
+git add requirements.txt README.md
+git commit -m "Add requirements and setup instructions"
+git push
